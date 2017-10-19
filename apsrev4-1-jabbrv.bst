@@ -2601,6 +2601,11 @@ FUNCTION {control}
 {
 }
 
+FUNCTION {format.journal}
+{
+  "{\JournalTitle{" journal * "}}" *
+}
+
 FUNCTION {article}
 { output.bibitem
   format.authors
@@ -2614,7 +2619,7 @@ FUNCTION {article}
   crossref missing$
     {
       link.open
-      journal
+      format.journal
       "journal" bibinfo.warn
       "journal" 'bibfield :=
       output
