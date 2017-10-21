@@ -2603,7 +2603,7 @@ FUNCTION {control}
 
 FUNCTION {format.journal}
 {
-  "{\JournalTitle{" journal * "}}" *
+  "\protect\JournalTitle{" journal * "}" *
 }
 
 FUNCTION {article}
