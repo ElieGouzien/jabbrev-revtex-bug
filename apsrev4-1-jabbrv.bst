@@ -1,3 +1,21 @@
+% This file is a modified version from `apsrev4-1.bst', adapted to the use with
+% the `jabbrv' package.
+% Applied diff (before adding this notice) is :
+% 2603a2604,2608
+% > FUNCTION {format.journal}
+% > {
+% >   "\protect\JournalTitle{" journal * "}" *
+% > }
+% >
+% 2617c2622
+% <       journal
+% ---
+% >       format.journal
+%
+% The original version is available at https://journals.aps.org/files/revtex/revtex4-1.zip
+%
+% ===============================================================
+% Original explaination about this file :
 %%
 %% This is file `apsrev4-1.bst',
 %% generated with the docstrip utility.
