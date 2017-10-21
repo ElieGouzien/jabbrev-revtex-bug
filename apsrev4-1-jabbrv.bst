@@ -1,5 +1,9 @@
-% This file is a modified version from `apsrev4-1.bst', adapted to the use with
-% the `jabbrv' package.
+% ===============================================================
+% IMPORTANT NOTICE:
+% This bibliographic style (bst) file has been modified by Elie Gouzien with the
+% crucial help from Erich E. Hoover from `apsrev4-1.bst', adapted to the use
+% with it's `jabbrv' package.
+%
 % Applied diff (before adding this notice) is :
 % 2603a2604,2608
 % > FUNCTION {format.journal}
@@ -12,10 +16,9 @@
 % ---
 % >       format.journal
 %
-% The original version is available at https://journals.aps.org/files/revtex/revtex4-1.zip
-%
+% The original version is available at
+% https://journals.aps.org/files/revtex/revtex4-1.zip
 % ===============================================================
-% Original explaination about this file :
 %%
 %% This is file `apsrev4-1.bst',
 %% generated with the docstrip utility.
